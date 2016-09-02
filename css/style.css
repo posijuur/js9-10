@@ -1,0 +1,72 @@
+input {
+	position: absolute;
+	clip: rect(0, 0, 0, 0);
+}
+.niceCheck {
+	width: 17px;
+	height: 17px;
+	display: inline-block;
+	cursor: pointer;
+	background: url(../images/checkbox-sprite.png);
+	overflow: hidden;
+}
+.niceChecked {
+	background-position: 0 -17px;
+}
+.niceCheck input {
+	margin-left: -100px; /* можно задать побольше чтобы наверняка скрыть поле */
+}
+.niceCheckDisabled {
+	background-image: url(../images/checkbox-sprite.png);
+}
+
+.wrap-input {
+	float: right;
+	width: 50%;
+	background-color: #EFDDF4;
+}
+
+.wrap-input-css {
+	width: 50%;
+	background-color: #D2F8F2;
+}
+
+.input-css {
+	float: right;
+	width: 225px;
+}
+
+.input {
+	position: absolute;
+	clip: rect(0, 0, 0, 0);
+}
+.label {
+	cursor: pointer;
+}
+.label:after {
+	content: " ";
+	display: inline-block;
+	width: 17px;
+	height: 17px;
+	background: url(../images/checkbox-sprite.png);
+	position: relative;
+	top: 3px;
+	margin-left: 15px;
+}
+.input:checked + .label:after {
+background-position: 0 -17px;
+}
+.input:disabled + .label:after {
+background-position: 0 -17px;
+}
+.label:hover:after {
+background-position: 0 -34px;
+}
+.input:checked + .label:hover:after {
+background-position: 0 -51px;
+}
+
+
+.emty{
+	height: 300px;
+}

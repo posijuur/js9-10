@@ -1,0 +1,41 @@
+.menu-mid {
+  width: 50%;
+  margin: auto;
+  margin-top: 50px;
+  text-align: center;
+  background-color: #EBE7E7;
+}
+
+.menu-mid_item {
+  position: relative;
+  display: inline-block;
+}
+
+.sub-menu {
+  /* display: none; */
+  position: absolute;
+  background-color: #FDDFDF;
+}
+
+.sub-menu_item {
+  display: block;
+  position: relative;
+}
+
+.sub2-menu {
+  /* display: none; */
+  position: absolute;
+  left: 100%;
+  top: 0%;
+  background-color: #F6F5B3;
+}
+
+/* .menu-mid_item:hover .sub-menu {
+  display: block;
+} */
+
+.sub-menu_item:hover .sub2-menu {
+ /*  display: block; */
+  
+}
+
